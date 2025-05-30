@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>My Cart</title>
+        <style>
+            body { font-family: Arial; padding: 20px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .total { font-weight: bold; }
+            button { padding: 5px 10px; cursor: pointer; }
+        </style>
+    </head>
+    <body>
+        <h1>My Cart</h1>
+        <table id="cartTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Subtotal</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="total">Total</td>
+                    <td id="totalPrice" class="total"></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <button onclick="checkoutCart()">Checkout</button>
+
+        <script>
+            const userEmail = localStorage.getItem("userEmail");
+            const tableBody = document.querySelector("#cartTable tbody");
+            const totalPriceE1 = document.getElementById("totalPrice");
+
+            function fetchCart() {
+                fetch('http://localhost:8080/api/cart/${userEmail}')
+                .then(res => res.json())
+                .then(data => {
+                    tableBody.innerHTML = "";
+                    let total = 0;
+                    data.forEach(item => {
+                        const subtotal = item.quantity * item.price;
+                        total += subtotal;
+                        const row = `
+                        <tr>
+                            <td>${item.productName}</td>
+                            <td>${item.quantity}</td>
+                            <td>$${item.price.toFixed(2)}</td>
+                            <td>$${subtotal.toFixed(2)}</td>
+                            <td><button onclick="removeItem(${item.id})">Remove</button></td>
+                        </tr>
+                        `;
+                        tableBody.insertAdjacentHTML("beforeend", row);
+                    });
+                    totalPriceE1.textContent = `$${total.toFixed(2)}`;
+                });
+            }
+
+            function removeItem(id) {
+                fetch(`http://localhost:8080/api/cart/item/${id}`, {
+                    method: 'DELETE'
+                })
+                .then(() => fetchCart());
+            }
+
+            fetchCart();
+
+
+            function checkoutCart() {
+                const userEmail = localStorage.getItem("userEmail");
+
+                fetch(`http://localhost:8080/api/cart/checkout/${userEmail}`, {
+                    method: "POST"
+                })
+                .then(response => response.text())
+                .then(message => {
+                    alert(message); //"checkout complete. cart cleared."
+                    //Refresh cart items or redirect
+                    fetchCartItems(); //If you have this function
+                })
+                .catch(error => {
+                    console.error("Checkout failed:", error);
+                });
+            }
+        </script>
+    </body>
+</html>

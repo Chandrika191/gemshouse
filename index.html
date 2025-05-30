@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gems House - Online Shopping Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar Here -->
+
+    <header>
+        <nav class="navbar flex container" role="navigation" aria-label="Main navigation">
+            <a href="#" class="logo">
+                Gems<span>House</span>
+            </a>
+
+            <ul class="navlist flex">
+                <li>
+                    <a href="#" class="link link-active">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="link" id="nav-shops">Shops</a>
+                </li>
+                <li>
+                    <a href="#" class="link">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Blog</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Contact</a>
+                </li>
+                <li class="nav-icons flex">
+                    <a href="#" class="icon" id="search-toggle">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#login-bar" class="icon" id="loginUser">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                    <a href="cart.html" class="icon icon-active">
+                        <i class="fa-solid fa-shopping-bag"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="#" class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+        <div class="search-box" id="search-box" style="display: none; text-align: center; margin-top: 10px; position: relative;">
+           <input type="text" id="search-input" placeholder="Search products..." style="padding: 8px 30px 8px 8px; width: 60%;">
+           <span id="clear-search" style="position: absolute; right: 21%; top: 50%; transform: translateY(-50%); cursor: pointer; font-weight: bold; font-size: 18px;">×</span>
+        </div>
+
+        </header>
+
+
+    <!-- Section Here -->
+
+    <main>
+        <section id="homeSection" class="gemstone">
+            <div class="gemstone-content flex container">
+                <div>
+                    <h3>The House of Aura Enlightenment...</h3>
+                <h1>New Collection</h1>
+                <h4>Big Sale of this week up to <span>30%</span></h4>
+                <button type="button">Explore</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories-section" class="section">
+            <div class="category-container container">
+                <div class="category">
+                    <img src="gemss.jpg">
+                    <button id="btn-gemstones">Gemstones</button>
+                </div>
+                <div class="category">
+                    <img src="bracelet.jpg">
+                    <button id="btn-bracelets">Bracelets</button>
+                </div>
+                <div class="category">
+                    <img src="garland.jpg">
+                    <button id="btn-garlands">Garlands</button>
+                </div>
+                <div class="category">
+                    <img src="yantra.jpg">
+                    <button id="btn-yantras">Yantras</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section1">
+            <div class="container">
+                <h2>New Product</h2>
+              <div class="line"></div>
+
+              <div class="card-container flex wrap">
+                <div class="card new">
+                    <img src="garland1.jpg">
+                    <div class="card-content">
+                        <p class="title">Sodalite Japa Mala: For Spiritual Growth</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card sale">
+                    <img src="bracelet001.jpg">
+                    <div class="card-content">
+                        <p class="title">Dhan Yog Bracelet: For Financial Prosperity</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card sale">
+                    <img src="braclet002.jpg">
+                    <div class="card-content">
+                        <p class="title">7 Chakra Crystal Bracelet: For Astrology Purpose</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="yellowsapphire.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Yellow Sapphire Gemstone: 10 Carat</p>
+                        <div class="price">
+                            <del>Rs. 35000.00</del>
+                            <span class="amount">Rs. 24500.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div> 
+              </div>
+            </div>
+        </section>
+
+        <section id="bracelet-collection" class="section2">
+            <div class="sale-container">
+               <h3>New Collection 2025</h3>
+               <h1>Bracelet Collection</h1>
+               <div class="line"></div>
+               <h4>Big Sale of this week</h4>
+               <button>Shop Now</button>
+            </div>
+        </section>
+
+        <section id="bracelet-collection1" class="section3">
+            <div class="container">
+                <h2>Best Sale</h2>
+                <div class="line"></div>
+                <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="sale1.jpg">
+                    <div class="card-content">
+                        <p class="title">Black Tourmaline Bracelet</p>
+                        <p class="description">Sheilds against negative energy</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="sale2.jpg">
+                    <div class="card-content">
+                        <p class="title">Pyrite Bracelet</p>
+                        <p class="description">Enhances mental clarity and focus</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="sale3.jpg">
+                    <div class="card-content">
+                        <p class="title">Citrine Bracelet</p>
+                        <p class="description">Boosts confidence, creativity & motivation</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="sale4.jpg">
+                    <div class="card-content">
+                        <p class="title">Jade Bracelet</p>
+                        <p class="description">Enhances wisdom & clarity</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                  No matching products found.
+                </p>
+                <div id="product-container" class="card-container flex wrap">
+                 <div class="card sale">
+                    <img src="sale5.jpg">
+                    <div class="card-content">
+                        <p class="title">Rose Quartz Bracelet</p>
+                        <p class="description">Encouraging tranquility and inner healing</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="sale6.jpg">
+                    <div class="card-content">
+                        <p class="title">Lapis Lazuli Bracelet</p>
+                        <p class="description">Protecting against psychic attacks</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="sale7.jpg">
+                    <div class="card-content">
+                        <p class="title">Carnelian Bracelet</p>
+                        <p class="description">Enhances focus and concentration</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="sale8.jpg">
+                    <div class="card-content">
+                        <p class="title">Amethyst Bracelet</p>
+                        <p class="description">Enhances spiritual awareness and intuition</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                  No matching products found.
+                </p>
+
+               <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="sale9.jpg">
+                    <div class="card-content">
+                        <p class="title">5 Mukhi Rudraksha Combo</p>
+                        <p class="description">Spiritual growth & Balancing chakras</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="bracelet001.jpg">
+                    <div class="card-content">
+                        <p class="title">Dhan Yog Bracelet: For Financial Prosperity</p>
+                        <p class="description">For financial prosperity</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="braclet002.jpg">
+                    <div class="card-content">
+                        <p class="title">7 Chakra Crystal Bracelet: For Astrology Purpose</p>
+                        <p class="description">For astrology purpose</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="sale10.jpg">
+                    <div class="card-content">
+                        <p class="title">Navgraha Shanti Bracelet</p>
+                        <p class="description">Helps balance all 9 grahas</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                  No matching products found.
+                </p>
+            </div>
+        </section>
+
+        <section id="garland-collection" class="section4">
+            <div class="sale-container1">
+               <h3>New Collection 2025</h3>
+               <h1>Garland Collection</h1>
+               <div class="line"></div>
+               <h4>Big Sale of this week</h4>
+               <button>Shop Now</button>
+            </div>
+        </section>
+
+        <section id="garland-collection1" class="section5">
+            <div class="container">
+                <h2>Best Sale</h2>
+                <div class="line"></div>
+                <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="garland1.jpg">
+                    <div class="card-content">
+                        <p class="title">Sodalite Japa Mala</p>
+                        <p class="description">Brings emotional balance & calm panic attacks</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="garland2.jpg">
+                    <div class="card-content">
+                        <p class="title">Fire Agate Japa Mala</p>
+                        <p class="description">Help with spiritual advancement & progression</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="garland3.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Citrine Japa Mala</p>
+                        <p class="description">Enhances clarity & focus</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="garland4.jpg">
+                    <div class="card-content">
+                        <p class="title">Rudraksha Japa Mala</p>
+                        <p class="description">Enhances spiritual growth</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                   No matching products found.
+                </p>
+
+               <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="garland5.jpg">
+                    <div class="card-content">
+                        <p class="title">Black Tourmaline Japa Mala</p>
+                        <p class="description">Protecting from negative energy</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="garland6.jpg">
+                    <div class="card-content">
+                        <p class="title">Rose Quartz Japa Mala</p>
+                        <p class="description">Promotes emotional healing</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="garland7.jpg">
+                    <div class="card-content">
+                        <p class="title">Amazonite Japa Mala</p>
+                        <p class="description">Soothes trauma & calms the mind</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="garland8.jpg">
+                    <div class="card-content">
+                        <p class="title">Rhodonite Crystal Japa Mala</p>
+                        <p class="description">For balancing the heart chakra</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                  No matching products found.
+                </p>
+
+               <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="garland9.jpg">
+                    <div class="card-content">
+                        <p class="title">7 Chakra Japa Mala</p>
+                        <p class="description">Boosting energy & vitality</p>
+                        <div class="price">
+                            <del>Rs. 2500.00</del>
+                            <span class="amount">Rs. 1750.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="garland10.jpg">
+                    <div class="card-content">
+                        <p class="title">Sphatik Japa Mala</p>
+                        <p class="description">For spirtual growth & healing</p>
+                        <div class="price">
+                            <del>Rs. 2000.00</del>
+                            <span class="amount">Rs. 1400.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="garland11.jpg">
+                    <div class="card-content">
+                        <p class="title">Indian Blood Japa Mala</p>
+                        <p class="description">Boosts creativity & revitalizing the mind and body</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="garland12.jpg">
+                    <div class="card-content">
+                        <p class="title">Tigers Eye Cyrstal Mala</p>
+                        <p class="description">Promotes a sense of inner peace</p>
+                        <div class="price">
+                            <del>Rs. 3000.00</del>
+                            <span class="amount">Rs. 2100.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>  
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                   No matching products found.
+                </p>
+            </div>
+        </section>
+
+        <section id="yantra-collection" class="section6">
+            <div class="sale-container2">
+               <h3>New Collection 2025</h3>
+               <h1>Yantras Collection</h1>
+               <div class="line"></div>
+               <h4>Big Sale of this week</h4>
+               <button>Shop Now</button>
+            </div>
+        </section>
+
+        <section id="yantra-collection1" class="section7">
+            <div class="container">
+                <h2>Best Sale</h2>
+                <div class="line"></div>
+                <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="yantra1.jpg">
+                    <div class="card-content">
+                        <p class="title">Vyapar Vridhhi Yantra Combo</p>
+                        <p class="description">For boosting business</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs. 1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="yantra2.jpg">
+                    <div class="card-content">
+                        <p class="title">Safalta Prapti Yantra Combo</p>
+                        <p class="description">For achieving success</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs. 1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="yantra3.jpg">
+                    <div class="card-content">
+                        <p class="title">Raksha Kavach Yantra Combo</p>
+                        <p class="description">Protecting from evil eye</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs. 1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="yantra4.jpg">
+                    <div class="card-content">
+                        <p class="title">Parivar Raksha Yantra Combo</p>
+                        <p class="description">Protecting family</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs.1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                   No matching products found.
+                </p>
+
+              <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="yantra5.jpg">
+                    <div class="card-content">
+                        <p class="title">Navgrah Shanti Yantra Combo</p>
+                        <p class="description">For balancing all 9 grahas</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs. 1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="yantra6.jpg">
+                    <div class="card-content">
+                        <p class="title">Lakshmi Kuber Yantra Combo</p>
+                        <p class="description">For wealth & prosperity</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs. 1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="yantra7.jpg">
+                    <div class="card-content">
+                        <p class="title">Ghar Samridhhi Yantra Combo</p>
+                        <p class="description">For health & wealth</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs.1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="yantra8.jpg">
+                    <div class="card-content">
+                        <p class="title">Dhan Sampatti Yantra Combo</p>
+                        <p class="description">For wealth & peace</p>
+                        <div class="price">
+                            <del>Rs. 1500.00</del>
+                            <span class="amount">Rs. 1000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                   No matching products found.
+                </p>
+            </div>
+        </section>
+
+        <section id="gemstone-collection" class="section13">
+            <div class="sale-container3">
+               <h3>New Collection 2025</h3>
+               <h1>Gemstones Collection</h1>
+               <div class="line"></div>
+               <h4>Big Sale of this week</h4>
+               <button>Shop Now</button>
+            </div>
+        </section>
+
+        <section id="gemstone-collection1" class="section14">
+            <div class="container">
+                <h2>Best Sale</h2>
+                <div class="line"></div>
+                <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="yellowsapphire.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Yellow Sapphire Gemstone: 10 Carat</p>
+                        <p class="description">For jupiter: knowledge & fortune</p>
+                        <div class="price">
+                            <del>Rs. 35000.00</del>
+                            <span class="amount">Rs. 24500.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="ruby.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Ruby (Manik) Gemstone: 10 Carat</p>
+                        <p class="description">For sun: boosting energy</p>
+                        <div class="price">
+                            <del>Rs. 45000.00</del>
+                            <span class="amount">Rs. 31500.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="bluesapphire.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Blue Sapphire Gemstone: 10 Carat</p>
+                        <p class="description">For saturn: promotes mental stability</p>
+                        <div class="price">
+                            <del>Rs. 50000.00</del>
+                            <span class="amount">Rs. 35000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="emarald.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Emerald (Panna) Gemstone: 10 Carat</p>
+                        <p class="description">For mercury: promotes love, harmony & creativity</p>
+                        <div class="price">
+                            <del>Rs. 45000.00</del>
+                            <span class="amount">Rs.31500.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+                </div>
+                <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                   No matching products found.
+                </p>
+
+              <div id="product-container" class="card-container flex wrap">
+                 <div class="card new">
+                    <img src="opal.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Opal (Heated) Gemstone: 10 carat</p>
+                        <p class="description">For venus: improves health & mind</p>
+                        <div class="price">
+                            <del>Rs. 20000.00</del>
+                            <span class="amount">Rs. 14000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="pearl.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Pearl (Cultured) Gemstone: 10 carat</p>
+                        <p class="description">For moon: calms mind & improves sleep</p>
+                        <div class="price">
+                            <del>Rs. 10000.00</del>
+                            <span class="amount">Rs. 7000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card sale">
+                    <img src="redcoral.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural Coral (Redcoral) Gemstone: 10 carat</p>
+                        <p class="description">For mars: boosted confidence</p>
+                        <div class="price">
+                            <del>Rs. 10000.00</del>
+                            <span class="amount">Rs.7000.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="card new">
+                    <img src="catseye.jpg">
+                    <div class="card-content">
+                        <p class="title">Natural CatsEye Gemstone: 10 carat</p>
+                        <p class="description">For ketu: help mitigate the negative effects</p>
+                        <div class="price">
+                            <del>Rs. 15000.00</del>
+                            <span class="amount">Rs. 11500.00</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                 </div> 
+               </div>
+               <p id="no-results" style="text-align:center; font-weight:bold; color:red; margin-top: 2rem; display: none;">
+                 No matching products found.
+               </p>
+            </div>
+        </section>
+
+
+        <section class="section8">
+            <div class="secondary-bg">
+               <div class="container flex wrap">
+                  <div class="box">
+                     <i class="fa-solid fa-truck"></i>
+                     <h5>
+                        <a href="#">Free Shipping</a>
+                     </h5>
+                     <p class="des">Free Shipping on order over Rs. 499</p>
+                  </div>
+
+                  <div class="box">
+                     <i class="fa-solid fa-money-bill-1"></i>
+                     <h5>
+                        <a href="#">Cash on Delivery</a>
+                     </h5>
+                     <p class="des">The Internet Trend to Repeat</p>
+                  </div>
+
+                  <div class="box">
+                     <i class="fa-solid fa-gift"></i>
+                     <h5>
+                        <a href="#">Gift for All</a>
+                     </h5>
+                     <p class="des">Receive Gift when Subscribe</p>
+                  </div>
+
+                  <div class="box">
+                     <i class="fa-solid fa-clock"></i>
+                     <h5>
+                        <a href="#">Opening All Week</a>
+                     </h5>
+                     <p class="des">6.00 am - 17.00 pm</p>
+                  </div>
+               </div>
+            </div>
+        </section>
+
+       
+       <!--About Us -->
+       <section class="about">
+         <div class="aboutUs">
+            <h1>About Us</h1>
+            <p>Gems House... The House of Aura Enlightenment...</p>
+         </div>
+         <div class="me">
+            <img src="gemss.jpg">
+            <div class="aboutText">
+                <h2>Who We Are?</h2>
+                <p>At GemsHouse, we believe that every gemstone tells a story — of beauty, craftsmanship, and timeless elegance. Founded with a passion for rare and exquisite gems, we are dedicated to bringing you a curated collection of high-quality, ethically sourced gemstones and jewelry that reflect both tradition and innovation.</p>
+                <p>Our team of gemologists, artisans, and designers work closely to ensure each piece meets the highest standards of quality and authenticity. Whether you’re searching for a unique engagement ring, a custom-designed piece, or a treasured gift, GemsHouse is your trusted destination.</p>
+                <p>Driven by a commitment to transparency, excellence, and customer satisfaction, we aim to make every purchase a memorable experience. Welcome to GemsHouse — where brilliance meets trust.</p>
+            </div>
+         </div>
+       </section>
+
+       
+        <!--Contact Us -->
+       <section class="contact-section">
+         <div class="contact-info">
+                <h2>Contact Us for any Query</h2>
+                <p>Address: Kamlapati Tripathi Nagar Colony, Aurangabad, Varanasi, UP</p>
+                <p>E-mail: gemshousevns@gmail.com</p>
+                <p>Contact No.: 8787076492</p>
+            </div>
+            <div class="contact-map">
+                <iframe 
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114101.72228383316!2d82.9087062!3d25.3216849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e30ef7d7e5c9f%3A0x418d0a95b3d429df!2sKamlapati%20Tripathi%20Nagar%20Colony%2C%20Varanasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1716748130980!5m2!1sen!2sin" 
+                   width="100%" 
+                   height="450" 
+                   style="border:0; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" 
+                   allowfullscreen="" 
+                   loading="lazy" 
+                   referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Sign-Up Form -->
+       
+        <section id="signupSection" class="sign-up-form">
+           <div class="form-container">
+              <h1>Sign Up</h1>
+                <form id="signupForm">
+                  <input type="text" id="name" placeholder="Full Name" required />
+                  <input type="email" name="email" placeholder="Email Address" required />
+                  <input type="tel" id="phone" placeholder="Phone Number" required />
+                  <input type="text" id="city" placeholder="City" required />
+                  <input type="text" id="country" placeholder="Country" required />
+                  <input type="password" id="password" placeholder="Password" required/>
+                  <button type="submit">Submit</button>
+                  <p class="form-message" id="formMessage"></p>
+                </form>
+            </div>
+        </section>
+
+       
+
+       
+       
+       <!-- Blogs Here -->
+        <section class="section9">
+            <div class="container">
+                <h2>New Latest</h2>
+                <div class="line"></div>
+
+
+                <div class="blog-container flex wrap">
+                    <div class="blog-box">
+                        <img src="gemss1.jpg">
+                        <div class="blog-content">
+                            <h3 class="heading">
+                                <a href="#">Gems</a>
+                            </h3>
+                            <p class="des">Naturally occurring, mineral crystals that are valued for their beauty, rarity, and durability.</p>
+                            <a href="https://en.wikipedia.org/wiki/Gemstone" class="blog-link"> >>Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="garland.jpg">
+                        <div class="blog-content">
+                            <h3 class="heading">
+                                <a href="#">Garlands</a>
+                            </h3>
+                            <p class="des">A loop of prayer beads used in Indian religions like Hinduism, Buddhism and Sikhism.</p>
+                            <a href="https://en.wikipedia.org/wiki/Japamala" class="blog-link"> >>Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="sale10.jpg">
+                        <div class="blog-content">
+                            <h3 class="heading">
+                                <a href="#">Bracelets</a>
+                            </h3>
+                            <p class="des">For their healing properties, the emotional uplift they get by wearing them.</p>
+                            <a href="https://en.wikipedia.org/wiki/List_of_minerals" class="blog-link"> >>Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-box">
+                        <img src="yantrass.jpg">
+                        <div class="blog-content">
+                            <h3 class="heading">
+                                <a href="#">Yantras</a>
+                            </h3>
+                            <p class="des">A geometric diagram used in Hinduism as a tool for spiritual practice and worship.</p>
+                            <a href="https://en.wikipedia.org/wiki/Yantra" class="blog-link"> >>Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="login-bar" class="section11">
+            <div class="secondary-bg">
+                <form class="container flex wrap">
+                    <h3>Enter Your Email Id Here</h3>
+
+                    <div class="input-container flex">
+                        <input type="email" id="email" placeholder="Your Email">
+                        <button type="button" id="loginBtn">LogIn</button>
+                    </div>
+
+                    <div class="social-icons flex">
+                        <a href="#" class="media">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="media">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://g.co/kgs/nHzbsRm" class="media">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="www.linkedin.com/in/gems-house-600329368" class="media">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+
+     <!-- Footer Here -->
+     <footer class="section12">
+        <div class="footer-container container flex wrap">
+        <ul class="footer-list">
+            <li>
+                <a href="#" class="footer-link">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Online Store</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Blog</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Contact Us</a>
+            </li>
+        </ul>
+        <ul class="footer-list">
+            <li>
+                <a href="#login-bar" class="footer-link">Login/ Register</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Your Cart</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Wishlist Items</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Checkout</a>
+            </li>
+        </ul>
+        <ul class="footer-list">
+            <li>
+                <a href="#" class="footer-link">FAQs</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Term Of Service</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Returns</a>
+            </li>
+        </ul>
+        <ul class="footer-list">
+            <li class="footer-logo">
+                <a href="#" class="logo">
+                Gems<span>House</span>
+            </a>
+            </li>
+            <li>
+                <p class="detail">Varanasi, Uttar Pradesh</p>
+            </li>
+            <li>
+                <p class="detail">+91 87 8707 6492</p>
+            </li>
+            <li>
+                <p class="detail">gemshousevns@gmail.com</p>
+            </li>
+        </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                Copyright &copy;2018
+                <a href="#" class="footer-link">GemsHouse</a>
+            </p>
+        </div>
+     </footer>
+     <script src="script.js"></script>
+    </body>
+</html>
