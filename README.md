@@ -1,8 +1,8 @@
 # GEMSHOUSE - The House of Aura Enlightenment
 
-Gemshouse is an **online shopping website** specializing in gemstones, bracelets, garlands, yantras, and spiritual items.
-It is designed to combine **traditional Indian cultural aesthetics** with modern e-commerce features.
-This is a Spring Boot + MySQL backend and frontend project for GEMSHOUSE.
+1. Gemshouse is an **online shopping website** specializing in gemstones, bracelets, garlands, yantras, and spiritual items.
+2. It is designed to combine **traditional Indian cultural aesthetics** with modern e-commerce features.
+3. This is a Spring Boot + MySQL backend and frontend project for GEMSHOUSE.
 
 ----
 
@@ -61,29 +61,29 @@ Edit `backend/src/main/resources/application.properties` for database settings.
 
 ## Screenshots
 
-![Homepage Screenshot](WebsiteScreenshots/Homepage.png)
-![Homepage Screenshot](WebsiteScreenshots/NewProducts.png)
-![Aboutpage Screenshot](WebsiteScreenshots/AboutProducts.png)
-![Aboutpage Screenshot](WebsiteScreenshots/AboutUs.png)
-![Contactpage Screenshot](WebsiteScreenshots/ContactUs.png)
-![Shoppage Screenshot](WebsiteScreenshots/ProductCategory.png)
-![Shoppage Screenshot](WebsiteScreenshots/BraceletsSection.png)
-![Shoppage Screenshot](WebsiteScreenshots/Bracelets1.png)
-![Shoppage Screenshot](WebsiteScreenshots/Bracelets2.png)
-![Shoppage Screenshot](WebsiteScreenshots/Bracelets3.png)
-![Shoppage Screenshot](WebsiteScreenshots/GarlandsSection.png)
-![Shoppage Screenshot](WebsiteScreenshots/Garland1.png)
-![Shoppage Screenshot](WebsiteScreenshots/Garland2.png)
-![Shoppage Screenshot](WebsiteScreenshots/Garland3.png)
-![Shoppage Screenshot](WebsiteScreenshots/GemstonesSection.png)
-![Shoppage Screenshot](WebsiteScreenshots/Gemstone1.png)
-![Shoppage Screenshot](WebsiteScreenshots/Gemstone2.png)
-![Shoppage Screenshot](WebsiteScreenshots/YantrasSection.png)
-![Shoppage Screenshot](WebsiteScreenshots/Yantras1.png)
-![Shoppage Screenshot](WebsiteScreenshots/Yantras2.png)
-![Loginpage Screenshot](WebsiteScreenshots/Login.png)
-![Signuppage Screenshot](WebsiteScreenshots/Signup.png)
-![Database Screenshot](WebsiteScreenshots/Database.png)
+![Homepage Screenshot](Homepage.png)
+![Homepage Screenshot](NewProducts.png)
+![Aboutpage Screenshot](AboutProducts.png)
+![Aboutpage Screenshot](AboutUs.png)
+![Contactpage Screenshot](ContactUs.png)
+![Shoppage Screenshot](ProductCategory.png)
+![Shoppage Screenshot](BraceletsSection.png)
+![Shoppage Screenshot](Bracelets1.png)
+![Shoppage Screenshot](Bracelets2.png)
+![Shoppage Screenshot](Bracelets3.png)
+![Shoppage Screenshot](GarlandsSection.png)
+![Shoppage Screenshot](Garland1.png)
+![Shoppage Screenshot](Garland2.png)
+![Shoppage Screenshot](Garland3.png)
+![Shoppage Screenshot](GemstonesSection.png)
+![Shoppage Screenshot](Gemstone1.png)
+![Shoppage Screenshot](Gemstone2.png)
+![Shoppage Screenshot](YantrasSection.png)
+![Shoppage Screenshot](Yantras1.png)
+![Shoppage Screenshot](Yantras2.png)
+![Loginpage Screenshot](Login.png)
+![Signuppage Screenshot](Signup.png)
+![Database Screenshot](Database.png)
 
 ----
 
